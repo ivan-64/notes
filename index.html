@@ -8,11 +8,14 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <title>Заметки</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0dcaf0">
+    <link rel="apple-touch-icon" href="img/icon-192.png">
     <script src="app.js" defer></script>
 </head>
 
 <body class="bg-dark text-light">
-    <div class="container w-50 pt-5">
+    <div class="container pt-5 px-3" style="max-width: 600px;">
         <h1>Заметки</h1>
         <input type="text" class="form-control mb-2" placeholder="Введите название" id="title" />
         <button class="btn btn-outline-info w-100 mb-2" id="create">
